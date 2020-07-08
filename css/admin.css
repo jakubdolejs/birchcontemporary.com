@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Vista";
+    src: url('/fonts/VistaSanBoo.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Vista";
+    src: url('/fonts/VistaSanBooIta.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+html * {
+    font-family: Vista, sans-serif;
+    font-weight: normal;
+}
+body {
+    margin: 10px 30px;
+}
+a {
+    color: #000;
+}
+input, select {
+    font-size: 16px;
+}
+button, input[type='submit'] {
+    font-size: 20px;
+    background-color: #999;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+button:hover, input[type='submit']:hover {
+    background-color: #666;
+}
+button[disabled], input[type='submit'][disabled] {
+    background-color: #ccc;
+}
+ul.thumbnails {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.thumbnails li {
+    display: inline-block;
+    width: 195px;
+    padding: 20px;
+    vertical-align: top;
+}
+#imagePicker {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    display: none;
+    background-color: #fff;
+    padding: 30px;
+}
+#menu {
+    float:left;
+    width: 200px;
+}
+#content {
+    margin-left: 220px;
+}
+div.multipicker {
+    /*border: 1px solid #ccc;*/
+}
+div.multipicker div.item {
+    padding: 2px 4px;
+    background-color: #999;
+    display: inline-block;
+    margin-right: 5px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+div.multipicker div.item a.remove {
+    margin-left: 5px;
+    background-color: #333;
+    padding: 0px 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    color: #fff;
+}
+table.listing {
+    border-collapse: collapse;
+    width: 100%;
+}
+table.listing td:first-child {
+    width: 100%;
+}
+table.listing td {
+    padding: 6px;
+    white-space: nowrap;
+}
+table.listing tbody tr:nth-child(odd) td {
+    background-color: #eee;
+}
+a.button {
+    background-color: #999;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.button:hover {
+    background-color: #666;
+}
+table.listing td a.button {
+    font-size: 13px;
+}
+table.listing tbody tr:hover td {
+    background-color: #ccc;
+}
+fieldset {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+table.tracking {
+    border-collapse: collapse;
+    width: 100%;
+}
+td.trackingCount {
+    position: relative;
+    height: 200px;
+    min-width: 25px;
+    border: 1px solid #eee;
+    padding: 0px;
+}
+td.rowHeading {
+    vertical-align: bottom;
+}
+td.rowHeading div {
+    width: 30px;
+    height: 30px;
+    overflow: visible;
+    white-space: nowrap;
+    -moz-transform: rotate(-90deg);
+    -moz-transform-origin: 15px 15px;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin: 15px 15px;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: 15px 15px;
+}
+div.bar {
+    position: absolute;
+    background-color: #72daeb;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+div.count {
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+div.day {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+table.trackingListing {
+    border-collapse: collapse;
+    width: 100%;
+}
+table.trackingListing td {
+    padding: 6px;
+    white-space: nowrap;
+}
+table.trackingListing tbody tr:nth-child(odd) td {
+    background-color: #eee;
+}
+table.trackingListing tbody tr:hover td {
+    background-color: #ccc;
+}
+p.trackingHeader a.selected {
+    text-decoration: none;
+}
